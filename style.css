@@ -1,0 +1,77 @@
+
+    
+
+    h1 {
+        color:#92e905;
+        margin-left:20px;
+        padding:10px;
+
+    }
+
+    .header{
+        background-color:#c391aa ;
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .header *{
+        
+       
+    }
+
+   
+
+    .game{
+        background-color:#c45bda;
+    }
+
+    .games{
+        background-color: #b3d511;
+        display:flex;
+        justify-content: space-evenly;
+    }
+
+    .social{
+        background-color:#a2b3f6;
+        display:flex;
+        justify-content: flex-end;
+    }
+
+    body{
+        background-color:#d4a6f3;
+    }
+
+    .menu{
+       margin-right: 20px;
+       padding-top: 10px;
+    }
+
+    a:link{
+        color:#ffffff
+    }
+
+    a:visited{
+        color:#ffffff
+    }
+
+    .item{
+        position: relative;
+
+    }
+
+    .item p{
+        position: absolute;
+        top: 50%;
+        left :50%;
+        transform:translate(-50%,-70%);
+        opacity:0;
+    }
+
+    .item:hover p{
+        opacity:1;
+    }
+
+    .item:hover img{
+        opacity: 0.5;
+    }
+
